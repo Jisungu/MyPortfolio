@@ -20,15 +20,14 @@ var modalImg = document.getElementById("img01");
 var body = document.body;
 img.onclick = function(){
   modal.style.display = "inline";
+  modal.style.textAlign = "center";
   modalImg.src = this.src;
   body.style.overflow = "hidden";
 }
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
+modal.onclick = function() { 
   modal.style.display = "none";
   body.style.overflow = "overlay";
 }

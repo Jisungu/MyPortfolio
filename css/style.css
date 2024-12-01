@@ -2628,10 +2628,10 @@ h3 {
   color: #DB9A64;
 }
 
-/* line 26, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_gallery.scss */
+/* line 26, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_gallery.scss
 .gallery_area .single_gallery .gallery_heading h4:hover {
-  /*text-decoration: underline;*/
-}
+  text-decoration: underline;
+}/*
 
 /* line 33, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_gallery.scss */
 .gallery_area .more_works a {
@@ -3461,6 +3461,7 @@ h6 {
   border: 1px solid #DB9A64;
   background: transparent;
   font-size: 15px;
+  margin: 10px;
 }
 
 /* line 231, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_elements.scss */
@@ -6242,8 +6243,7 @@ h6 {
 #cvModal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 30px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -6252,6 +6252,7 @@ h6 {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
   overflow: hidden;
+  z-index: 10;
 }
 
 /* Modal Content (image) */
@@ -6259,7 +6260,7 @@ h6 {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 555px;
+  max-width: 630px;
 }
 
 /* Caption of Modal Image */
@@ -6314,6 +6315,10 @@ h6 {
   color: white !important;
   font-weight: bold;
   text-transform: capitalize;
+}
+
+#cvBlock {
+  text-align: center;
 }
 
 /* 100% Image Width on Smaller Screens */
